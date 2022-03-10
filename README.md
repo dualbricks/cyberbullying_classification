@@ -1,2 +1,2 @@
-# cyberbullying_classification
+# shipwreck_prediction
 &lt;----To be updated----->
