@@ -1,2 +1,2 @@
-# shipwreck_prediction
+# VideoGameEDA
 &lt;----To be updated----->
