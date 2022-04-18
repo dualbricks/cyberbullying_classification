@@ -5,7 +5,7 @@
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focus on the [Video Game Sales With Ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings) Dataset. As passionate gamers, we were curious as to how each video did in different ears under different region. As such, we have decided to analyse this dataset to see what insights we can gain.
 
 ## Data Extraction & Objective 
-[image](resources/dataset_description.png)
+![image](resources/dataset_description.png)
 The dataset consists of about 17000 entries and 16 unique columns. These columns include variables such as platforms. genres, publishers and many more. Upon seeing the variables, we were interested in how each variable could affect the potential sales in different regions.
 With that in mind, as passionate gamers and pontentially furture game developers, the question that came to our mind was: 
 ## Objective
