@@ -41,6 +41,6 @@ We realised that the variables in the dataset were not enough to predict Global 
 
 ## References
 
--[SK Learn Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
--[Kaggle Dataset](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+- [SK Learn Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
 
