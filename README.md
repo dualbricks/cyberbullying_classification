@@ -34,9 +34,9 @@ We realised that the variables in the dataset were not enough to predict Global 
 
 ## Contributors
 
-@jianlel
-@gnijw
-@dualbricks
+- [@jianlel](https://github.com/jianlel)
+- [@gnijw](https://github.com/gnijw)
+- [@dualbricks](https://github.com/dualbricks)
 
 ## References
 
