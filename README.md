@@ -16,7 +16,7 @@ With that in mind, as passionate gamers and pontentially furture game developers
 
 For a detailed walkthrough of our project:
 ## Content
-1. [Complete Notebook]()
+1. [Complete Notebook](videoGameEDA.ipynb)
 2. [EDA](EDA.ipynb)
 3. [Machine Learning](machineLearning.ipynb)
 4. [Python functions for this project](resources/edafunctions.py)
