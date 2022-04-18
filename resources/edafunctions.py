@@ -148,7 +148,7 @@ def reg(data, sales, predictor):
     print()
     acc = linreg.score(X_test, y_test)
     mse = mean_squared_error(y_test, y_test_pred)    
-    return [str(predictor),acc, mse]
+    return [str(predictor) + "_G,acc, mse]
 
 #simple regression model
 def grad(data, sales, predictor):
@@ -156,11 +156,6 @@ def grad(data, sales, predictor):
     y = sales
     X_train, X_test, y_train, y_test = train_test_split(
     X, y, random_state=42)
-    lasso = linear_model.Lasso()
-    scores = cross_validate(lasso, X_train, y_train, cv=10,
-                       scoring=('r2', 'neg_mean_squared_error'),
-                       return_train_score=True)
-    print("Cross validation: ",scores['train_r2'])
     reg = GradientBoostingRegressor(random_state=42)
     reg.fit(X_train, y_train)
     y_train_pred = reg.predict(X_train)
