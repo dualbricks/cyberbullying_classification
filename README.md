@@ -25,7 +25,8 @@ For a detailed walkthrough of our project:
 - Linear Regression
 - Gradient-Boosting Regression
 - K-Nearest Neighbour Regression
-- 
+
+
 ## Conclusion
 
 
@@ -40,4 +41,6 @@ We realised that the variables in the dataset were not enough to predict Global 
 
 ## References
 
+-[SK Learn Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+-[Kaggle Dataset](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
 
