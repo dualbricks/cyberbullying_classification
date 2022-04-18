@@ -16,16 +16,18 @@ With that in mind, as passionate gamers and pontentially furture game developers
 
 For a detailed EDA of our project:
 ## Content
-1. [placeholder]()
-2. [placeholder]()
-3. [placeholder]()
-4. [placeholder]()
+1. [Complete Notebook]()
+2. [EDA](EDA.ipynb)
+3. [Machine Learning](machineLearning.ipynb)
 
 ## Models used in this project:
 - Linear Regression
 - Gradient-Boosting Regression
 - K-Nearest Neighbour Regression
+- 
 ## Conclusion
+
+
 We realised that the variables in the dataset were not enough to predict Global sales, as there are many other factors that could affect how popular and successful a game can be. Take Wii sports for example, which was an innovative game that implemented real life action into video games to simulate playing the real sport. Wii sport’s success could be attributed to its innovation to not imitate other existing games, but rather create a game that was never seen before. As such, factors like creativity, constant developer updates, beta testing and such could result in a more successful game and consequently higher sales. With that in mind, perhaps there is more to creating a high-selling video game than just the platforms, publishers, genres and such. Instead, its success is also attributed together with the mindset of the developers to ensure the game stays relevant and innovative. 
 
 
