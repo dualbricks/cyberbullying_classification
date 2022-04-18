@@ -19,6 +19,7 @@ For a detailed EDA of our project:
 1. [Complete Notebook]()
 2. [EDA](EDA.ipynb)
 3. [Machine Learning](machineLearning.ipynb)
+4. [Python functions for this project](resources/edafunctions.py)
 
 ## Models used in this project:
 - Linear Regression
