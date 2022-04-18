@@ -4,7 +4,7 @@
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focus on the [Video Game Sales With Ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings) Dataset. As passionate gamers, we were curious as to how each video did in different ears under different region. As such, we have decided to analyse this dataset to see what insights we can gain.
 
-## Data Extraction & Objective 
+## Dataset Introduction 
 ![image](resources/dataset.png)
 
 
@@ -14,7 +14,7 @@ With that in mind, as passionate gamers and pontentially furture game developers
 - How do we make the most sales out of a game?
 - Which variables would be the best at predicting global sales?
 
-For a detailed EDA of our project:
+For a detailed walkthrough of our project:
 ## Content
 1. [Complete Notebook]()
 2. [EDA](EDA.ipynb)
@@ -34,6 +34,10 @@ We realised that the variables in the dataset were not enough to predict Global 
 
 ## Contributors
 
+@jianlel
+@gnijw
+@dualbricks
 
 ## References
+
 
