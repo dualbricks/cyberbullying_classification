@@ -43,8 +43,7 @@ While we were relatively successful when it came to predicting sales using NA sa
 - [@dualbricks](https://github.com/dualbricks)
 
 ## References
-
+- [Kaggle](https://www.kaggle.com)
 - [SK Learn Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
 - [Video Game Sales With Rating](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
 - [Video Games Sales 2019](https://www.kaggle.com/datasets/ashaheedq/video-games-sales-2019)
-
