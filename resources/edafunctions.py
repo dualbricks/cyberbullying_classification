@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 from collections import Counter 
 import os
-import dataframe_image as dfi
+
 
 # You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using "Save & Run All" 
 # You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session
@@ -26,19 +26,19 @@ sb.set(font_scale = 1.9)
 
 #data cleaning functions
 def null_cleaning(data,columns):
-    df =data
+    df = data.copy()
     for column in columns:
          df = df[df[column].notna()]
     return df
 
 def value_cleaning(data, columns, value):
-    df = data
+    df = data.copy()
     for column in columns:
         df = df[df[column] > value];
     return df
 
 def outlier_cleaning(data, columns):
-    df = data
+    df = data.copy()
     for column in columns:
         Q1 = df[column].quantile(0.25)
         Q3 = df[column].quantile(0.75)
@@ -85,6 +85,7 @@ def userscore_region(data, region):
     userscore_train, userscore_test, regionSales_train, regionSales_test = train_test_split(userscore, regionSales, test_size=0.2, random_state=42)
     trainDF = pd.concat([userscore_train, regionSales_train], axis = 1).reindex(userscore_train.index)
     sb.jointplot(data = trainDF, x = "User_Score", y = region, height = 12)
+    
 #function to plot criticscore given region
 def cscore_region(data, region):
     cscore = pd.DataFrame(data["Critic_Score"])
@@ -148,12 +149,12 @@ def reg(data, sales, predictor):
     print()
     acc = linreg.score(X_test, y_test)
     mse = mean_squared_error(y_test, y_test_pred)    
-    return [str(predictor) + "_G,acc, mse]
+    return [str(predictor),acc, mse]
 
 #simple regression model
 def grad(data, sales, predictor):
     X = pd.DataFrame(data[predictor])
-    y = sales
+    y = np.ravel(sales)
     X_train, X_test, y_train, y_test = train_test_split(
     X, y, random_state=42)
     reg = GradientBoostingRegressor(random_state=42)
@@ -167,7 +168,7 @@ def grad(data, sales, predictor):
     print("Mean Squared Error (MSE) \t:", mse)
     print()
     
-    return [str(predictor),acc, mse]
+    return [str(predictor)+"_G",acc, mse]
 
 #model function for goodness of fit
 def fit_and_eval(data, predictor, sale, model):
