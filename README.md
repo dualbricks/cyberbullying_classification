@@ -2,7 +2,7 @@
 
 ## About
 
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the [Video Game Sales With Ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings) Dataset. As passionate gamers, we were curious as to how each video game did in different ears under different region. As such, we have decided to analyse this dataset to see what insights we can gain.
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the [Video Game Sales With Ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings) Dataset. As passionate gamers, we were curious as to how each video game did in different region. As such, we have decided to analyse this dataset to see what insights we can gain.
 
 ## Dataset Introduction 
 ![image](resources/dataset.png)
@@ -28,6 +28,7 @@ For a detailed walkthrough of our project:
 
 
 ## Data Insights
+
 We found out from the many outliers present that most of the successful games were one hit wonders, which made it harder to predict sales. We learnt that NA sales actually have the highest correlation and prediction accuracy when it comes to global sales, which could be due to the fact that the larger population of gamers worldwide reside in North America. As such, perhaps promoting and catering games towards the NA region could be a possible way of earning higher sales. Furthermore, our EDA showed us that Japan has their own unique “taste” in games, with almost all their findings contrasting that of other regions.
 
 
