@@ -1,5 +1,7 @@
 # VideoGameEDA
 
+![image](resources/banner.png)
+
 ## About
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the [Video Game Sales With Ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings) Dataset. As passionate gamers, we were curious as to how each video game did in different region. As such, we have decided to analyse this dataset to see what insights we can gain.
