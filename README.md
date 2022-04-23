@@ -1,6 +1,6 @@
 # VideoGameEDA
 
-![image](resources/banner.png)
+![image](resources/banner.PNG)
 
 ## About
 
